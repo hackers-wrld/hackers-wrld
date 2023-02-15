@@ -1,0 +1,27 @@
+.me_2 {
+    position: absolute;
+    //top: 10vh;
+    margin-left: 480px;
+    //right: 10vw;
+    height: 250px;
+    width: 230px;
+    
+    border-radius: 20px;
+}
+
+// when display size greater or less than 
+// image collapse 
+@media only screen and (min-width: 820px) {
+    .me_2 {
+        position: absolute;
+        width: 290px;
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 525px){
+	/*Small smartphones [325px -> 425px]*/
+    .me_2 {
+        display: none;
+    }
+}

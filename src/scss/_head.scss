@@ -1,0 +1,83 @@
+// edit the create text , about mini
+body {
+    .head {
+        margin-bottom: 15vh;
+        letter-spacing: 1px;
+
+        .hi {
+            font-size:xx-large;
+            .wrld {
+                a {
+                    text-decoration: none;
+                    // highlight the github link aka hackerswrld
+                    color: gold;
+                    transition: all .5s ease-out;
+
+                }
+
+                a:hover {
+                    color: brown;
+                }
+            }
+        }
+
+        .mini {
+            color: rgb(105, 108, 108);
+            font-weight: 700;
+            font-stretch: expanded;
+            justify-content: center;
+            text-indent: 2px;
+            letter-spacing: 1px;
+            line-height: 22px;
+        }
+        ._mail {
+            display: inline-block;
+            display:inline-flex;
+            align-items: center;
+            margin: 10px;
+            margin-left: 12vw;
+            margin-top: 7vh;
+            padding: 10px;
+            
+
+            //margin: 10px;
+            //padding: 15px;
+            //padding-top: 10px;
+            //margin-bottom: 10px;
+            text-align: center;
+            font-size: large;
+            //padding-left: 10px;
+            //margin-left: 10px;
+            border-radius: 15px;
+            border: solid gold 2px;
+            a {
+                text-decoration: none;
+                color: gold;
+                font-weight: bold;
+                margin-left: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                
+            }
+            .mailto {
+                fill: purple;
+                //background-color: purple;
+                //padding-left: 0px;
+                //padding-right: 20px;
+                //height: 40px
+                margin: 0px;
+                padding: 0px;
+                
+                
+            }
+            // highlight when the user hovers
+            
+            
+        }
+
+        ._mail:hover {
+            background-color: gray;
+        }
+    } 
+}
+
