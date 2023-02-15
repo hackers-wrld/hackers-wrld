@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "//hackers-wrld.github.io/hackers-wrld/static/css/main.78c92c24.css",
-    "main.js": "//hackers-wrld.github.io/hackers-wrld/static/js/main.9092d3dc.js",
+    "main.css": "//hackers-wrld.github.io/hackers-wrld/static/css/main.45156c49.css",
+    "main.js": "//hackers-wrld.github.io/hackers-wrld/static/js/main.cd8d4d5d.js",
     "static/js/787.7cb2e3e1.chunk.js": "//hackers-wrld.github.io/hackers-wrld/static/js/787.7cb2e3e1.chunk.js",
     "static/media/me.png": "//hackers-wrld.github.io/hackers-wrld/static/media/me.69126be37771c4992bd6.png",
     "index.html": "//hackers-wrld.github.io/hackers-wrld/index.html",
     "static/media/mail.svg": "//hackers-wrld.github.io/hackers-wrld/static/media/mail.6ca963d1bf7e3653c90dfdb94345eba2.svg",
-    "main.78c92c24.css.map": "//hackers-wrld.github.io/hackers-wrld/static/css/main.78c92c24.css.map",
-    "main.9092d3dc.js.map": "//hackers-wrld.github.io/hackers-wrld/static/js/main.9092d3dc.js.map",
+    "main.45156c49.css.map": "//hackers-wrld.github.io/hackers-wrld/static/css/main.45156c49.css.map",
+    "main.cd8d4d5d.js.map": "//hackers-wrld.github.io/hackers-wrld/static/js/main.cd8d4d5d.js.map",
     "787.7cb2e3e1.chunk.js.map": "//hackers-wrld.github.io/hackers-wrld/static/js/787.7cb2e3e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78c92c24.css",
-    "static/js/main.9092d3dc.js"
+    "static/css/main.45156c49.css",
+    "static/js/main.cd8d4d5d.js"
   ]
 }
