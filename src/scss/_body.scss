@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    scroll-behavior: smooth;
+    margin-left: 5vw;
+    margin-right: min(60vh);
+    width: 52vh;
+    animation: snow 3s linear;
+}
+@keyframes snow {
+    0% {
+        translate: -100%;
+        opacity: 30%;
+    }
+    50% {
+        //background-color: #0c0c0c;
+        translate: 20%;
+        opacity: 70%;
+    }
+    100% {
+        //background-position: 500px 1000px, 400px 400px, 300px 300px;
+        //background-color: #3b3e41;
+    }
+}
+.about {
+    .me {
+    // change the nwu to purple
+
+            .nwu {
+                color: purple;
+                font-weight: bold;
+                display: inline;
+            }
+    }
+}

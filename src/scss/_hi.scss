@@ -1,0 +1,23 @@
+//this the first text
+// home page
+.hi {
+    display: inline-block;
+    color: rgb(231, 231, 228);
+    // start the homepage halfway of viewheight
+    padding-top: 25vh;
+    height: 22vh;
+    font-size:x-large;
+}
+
+//mobile screens
+// decrease size of hi text size
+@media only screen and (max-width: 525px){
+	/*Small smartphones [325px -> 425px]*/
+    .hi {
+        //font-size: 10px;
+        h2 {
+            font-size: xx-large;
+        }
+        padding-top: 20vh;
+    }
+}

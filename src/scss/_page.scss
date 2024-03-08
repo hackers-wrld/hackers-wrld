@@ -1,0 +1,44 @@
+footer {
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0px;
+        
+    }
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    font-weight: bold;
+    a {
+        color: gold; 
+        color: linear-gradient(to right, black 50%, white 50%);
+        transition: all .5s ease-out;
+        
+    }
+    a:hover {
+        background-color: left right;
+        color: brown;
+    }
+    
+    
+}
+
+//mobile screens
+// decrease size of hi text size
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+   footer {
+    display: flex;
+    position: fixed;
+    //align-items:flex-start;
+    //flex-direction: column;
+    transform: rotate(90deg);
+    //right: -35%;
+    //margin: 0px;
+    //left: 45vw;
+    //right: -50vw;
+    //padding: 0px;
+    bottom: 150px;
+    right: -130px;
+   }
+}
