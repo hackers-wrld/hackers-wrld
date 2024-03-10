@@ -47,7 +47,9 @@ function App() {
           </div>
           <img src={me} class="me_2" alt='me' />
 
+
           <p class="me">I’m currently a computer science and mathematics undergrad student at <div class="nwu">NWU</div> (North West University)</p>
+
           <div>
             <p>
               Here are some technologies i have been working with:
