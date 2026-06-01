@@ -1,83 +1,152 @@
 // edit the create text , about mini
-body {
-    .head {
-        margin-bottom: 15vh;
-        letter-spacing: 1px;
+.head {
+    margin-top: 35vh;
+    margin-bottom: 10vh;
+    letter-spacing: 1px;
+    max-width: 1000px;
 
-        .hi {
-            font-size:xx-large;
-            .wrld {
-                a {
-                    text-decoration: none;
-                    // highlight the github link aka hackerswrld
-                    color: gold;
-                    transition: all .5s ease-out;
-
-                }
-
-                a:hover {
-                    color: brown;
-                }
-            }
+    .hi {
+        font-size: 1.75rem;
+        text-align: left;
+        margin-bottom: 6vh;
+        
+        h2 {
+            font-size: inherit;
+            margin: 0;
+            text-align: left;
         }
 
-        .mini {
-            color: rgb(105, 108, 108);
-            font-weight: 700;
-            font-stretch: expanded;
-            justify-content: center;
-            text-indent: 2px;
-            letter-spacing: 1px;
-            line-height: 22px;
-        }
-        ._mail {
-            display: inline-block;
-            display:inline-flex;
-            align-items: center;
-            margin: 10px;
-            margin-left: 12vw;
-            margin-top: 7vh;
-            padding: 10px;
-            
-
-            //margin: 10px;
-            //padding: 15px;
-            //padding-top: 10px;
-            //margin-bottom: 10px;
-            text-align: center;
-            font-size: large;
-            //padding-left: 10px;
-            //margin-left: 10px;
-            border-radius: 15px;
-            border: solid gold 2px;
+        .wrld {
             a {
                 text-decoration: none;
                 color: gold;
+                transition: all .5s ease-out;
+            }
+
+            a:hover {
+                color: brown;
+            }
+        }
+    }
+
+    .hero-row {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 2rem;
+        width: 100%;
+
+        .mini {
+            flex: 1;
+            color: rgb(105, 108, 108);
+            font-weight: 700;
+            font-stretch: expanded;
+            text-align: left;
+            text-indent: 0;
+            letter-spacing: 1px;
+            line-height: 1.5;
+
+            .mypapers-link {
+                text-decoration: none;
+                display: inline-block;
+                &:hover {
+                    opacity: 0.9;
+                }
+            }
+
+            .mdihub-link {
+                color: #b8860b; // Golden Brown
+                text-decoration: none;
                 font-weight: bold;
-                margin-left: 10px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                
+                &:hover {
+                    color: #996515;
+                }
             }
-            .mailto {
-                fill: purple;
-                //background-color: purple;
-                //padding-left: 0px;
-                //padding-right: 20px;
-                //height: 40px
-                margin: 0px;
-                padding: 0px;
-                
-                
+
+            .mypapers {
+                color: #4a90e2;
+                font-weight: bold;
+                position: relative;
+                display: inline-block;
+                background: linear-gradient(
+                    to right,
+                    #4a90e2 0%,
+                    #4a90e2 35%,
+                    #ffffff 50%,
+                    #4a90e2 65%,
+                    #4a90e2 100%
+                );
+                background-size: 300% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: shimmer 8s ease-in-out infinite;
             }
-            // highlight when the user hovers
-            
-            
         }
 
-        ._mail:hover {
-            background-color: gray;
+        @keyframes shimmer {
+            0% {
+                background-position: 150% center;
+            }
+            25% {
+                background-position: -150% center;
+            }
+            100% {
+                background-position: -150% center;
+            }
         }
-    } 
-}
 
+        .hero-image {
+            flex-shrink: 0;
+            .me_2 {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 2px solid gold;
+                // Override any legacy absolute positioning
+                position: static !important;
+                margin: 0 !important;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .hero-row {
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .hero-image .me_2 {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    }
+
+    ._mail {
+        display: inline-flex;
+        align-items: center;
+        margin: 2.5rem 0;
+        padding: 12px 20px;
+        text-align: center;
+        font-size: 1.125rem;
+        border-radius: 12px;
+        border: solid gold 2px;
+        transition: background-color 0.3s ease;
+        
+        a {
+            text-decoration: none;
+            color: gold;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        
+        .mailto {
+            fill: purple;
+        }
+    }
+
+    ._mail:hover {
+        background-color: rgba(128, 128, 128, 0.2);
+    }
+} 

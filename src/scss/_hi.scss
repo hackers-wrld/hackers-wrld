@@ -1,23 +1,37 @@
 //this the first text
 // home page
 .hi {
-    display: inline-block;
     color: rgb(231, 231, 228);
-    // start the homepage halfway of viewheight
-    padding-top: 25vh;
-    height: 22vh;
-    font-size:x-large;
+    font-size: 1.75rem;
+
+    .cursor {
+        display: inline-block;
+        width: 10px;
+        height: 1.1em;
+        background-color: currentColor;
+        margin-left: 6px;
+        vertical-align: text-bottom;
+        animation: pulse 1.2s ease-in-out infinite;
+        transform-origin: center;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% { 
+        opacity: 1; 
+        transform: scaleY(1);
+    }
+    50% { 
+        opacity: 0; 
+        transform: scaleY(0);
+    }
 }
 
 //mobile screens
-// decrease size of hi text size
 @media only screen and (max-width: 525px){
-	/*Small smartphones [325px -> 425px]*/
     .hi {
-        //font-size: 10px;
         h2 {
-            font-size: xx-large;
+            font-size: 1.25rem;
         }
-        padding-top: 20vh;
     }
 }

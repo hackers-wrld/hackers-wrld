@@ -1,6 +1,12 @@
 body {
     .comment {
-        font-size: x-large;
+        font-size: 1.25rem;
+        
+        h3 {
+            font-size: inherit;
+            margin: 0;
+            padding-bottom: 1rem;
+        }
         color: white;
     }
 
@@ -11,7 +17,7 @@ body {
         font-weight:500;
         text-indent: 2px;
             letter-spacing: 1px;
-            line-height: 22px;
+            line-height: 1.5;
 
             .project {
                 h4 {
@@ -34,6 +40,66 @@ body {
                 // hide the longer version
                 .hideout {
                     display: none;
+                }
+            }
+
+            .timeline {
+                position: relative;
+                padding-left: 1.5rem;
+                margin-top: 1rem;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    width: 2px;
+                    background: rgba(255, 215, 0, 0.3); // Faded gold
+                }
+
+                .exp-item {
+                    position: relative;
+                    margin-bottom: 2rem;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    .timeline-dot {
+                        position: absolute;
+                        left: -1.5rem;
+                        top: 0.5rem;
+                        width: 10px;
+                        height: 10px;
+                        background: gold;
+                        border-radius: 50%;
+                        transform: translateX(-40%);
+                        z-index: 1;
+                    }
+
+                    h4 {
+                        font-weight: bolder;
+                        margin-bottom: 0.25rem;
+                    }
+                    .exp-company {
+                        color: gold;
+                        font-weight: bold;
+                    }
+                    .exp-date {
+                        color: rgb(105, 108, 108);
+                        font-size: 0.85rem;
+                    }
+                    .exp-desc {
+                        margin-top: 0.75rem;
+                        padding-left: 1.2rem;
+                        color: rgb(141, 140, 138);
+                        font-size: 0.9rem;
+                        li {
+                            margin-bottom: 0.5rem;
+                            line-height: 1.4;
+                        }
+                    }
                 }
             }
     }
