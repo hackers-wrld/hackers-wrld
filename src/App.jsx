@@ -4,11 +4,33 @@ import './scss/_hi.scss';
 import MailLogo from './img/mail.svg?react';
 import me from './img/me.png';
 
+// Skoff Project Screenshots
+import screen1 from './img/1_Screenshot_Add_Drivers.webp';
+import screen2 from './img/Screenshot_HomePage_Rank_Lanes.webp';
+import screen3 from './img/Screenshot_Register_Rank_and_lanes.webp';
+import screen4 from './img/Screenshot_Select_Driver_to_lock.webp';
+import screen5 from './img/Screenshot_Select_Last_driver.webp';
+
+// MyPapers Project Screenshots
+import mp1 from './img/screen-dashboard.png';
+import mp2 from './img/screen-feed.png';
+import mp3 from './img/screen-quiz.png';
+import mp4 from './img/screen-solver.png';
+import mp5 from './img/screen-streaks.png';
+
+// MyParade Project Screenshots
+import parade1 from './img/parade-1.png';
+import parade2 from './img/parade-2.png';
+import parade3 from './img/parade-3.png';
+import parade4 from './img/parade-4.png';
+import parade5 from './img/parade-5.png';
+
 import './scss/_head.scss';
 import './scss/_body.scss';
 import './scss/_me.scss';
 import './scss/_page.scss';
 import './scss/_comments.scss';
+import './scss/_imgcards.scss';
 
 function App() {
   const [showMore, setShowMore] = useState(false);
@@ -28,7 +50,7 @@ function App() {
     <div className="app-container">
       <header id="head" className="head">
         <div className="hi">
-          <h2>Hi, I'm Kamogelo, aka <span className="wrld" style={{ display: 'inline-block' }}><a href='https://github.com/hackers-wrld'>hackerswrld</a><span className="cursor"></span></span></h2> 
+          <h1>Hi, I'm Kamogelo Ebuang, aka <span className="wrld" style={{ display: 'inline-block' }}><a href='https://github.com/hackers-wrld'>hackerswrld</a><span className="cursor"></span></span></h1> 
         </div>
         
         <div className="hero-row">
@@ -53,8 +75,7 @@ function App() {
           </div>
 
           <p className="me">
-            I’m currently a computer science and mathematics undergrad student at <span className="nwu">NWU</span> (North West University). 
-            Currently, I'm working as a <strong>Software Intern (Backend Developer)</strong>, applying my passion for data and systems in a professional environment.
+            I am currently a software engineer at <a href="https://mafihub.co.za" target="_blank" rel="noopener noreferrer" className="mdihub-link">MDIHUB</a>, where I help build large scale management systems that help MDIHUB make money, also i am IT officer. Previously I was a SWE Intern at Afrosurance.
           </p>
 
           <div>
@@ -66,7 +87,7 @@ function App() {
               <li>Mobile Development (Flutter, React Native)</li>
               <li>Backend (Django, Python, Java)</li>
               <li>Databases (SQL, NoSQL)</li>
-              <li>Javascript / Typescript</li>
+              <li>Javascript (ES6+) / Typescript</li>
             </ul>
             
             <p>Cloud & Others:</p>
@@ -74,74 +95,10 @@ function App() {
               <li>Firebase, Google Authentication</li>
               <li>Git / GitHub</li>
             </ul>
-          </div>
-        </section>
 
-        <section id="projects" className="projects">
-          <div className="comment">
-            <h3>// my projects</h3>
-          </div>
-          <div className="project">
-            <h4>Skoff Application</h4>
             <p>
-              I built an app for taxi drivers, and they don't use it.
-              How did this idea come about? Living with taxi drivers made me curious about 
-              how their system works, which brought this project to life. I programmed it over December 
-              2020. 
-              {!showMore && (
-                <span id="readmore" onClick={toggleReadMore} className="read" style={{ cursor: 'pointer', textDecoration: 'underline', marginLeft: '5px' }}>
-                  Read more
-                </span>
-              )}
+              In my free time, I study Mathematics, and play way too much arcade games. Oh, I watch anime too.
             </p>
-            
-            <div style={{ marginTop: '10px' }}>
-              <button 
-                onClick={toggleNotionModal}
-                className="read"
-                style={{ 
-                  background: '#2c2c2c', 
-                  color: 'white', 
-                  border: '1px solid #444', 
-                  padding: '5px 15px', 
-                  cursor: 'pointer',
-                  borderRadius: '4px',
-                  fontSize: '0.9rem'
-                }}
-              >
-                View Documentation (Notion)
-              </button>
-            </div>
-            
-            {showMore && (
-              <div id="hideout" className="hideout">
-                <p className="hide">
-                  If you know how their system works, you might be curious about how I managed to re-sort the list multiple times, as it was the hardest problem to solve at the time. Imagine a list of ten taxi drivers: every day, the driver who started first becomes the last the following day. The person who was second becomes first, the third becomes second, and so on. Another challenge is when a driver is absent on purpose or neglecting work; that driver has to be moved to the back of the line the following day. At least, that's how it was explained to me.
-                </p>
-                <div className="techu">
-                  Technologies used in this project:
-                </div>
-                <p>
-                  <span className="tech">Java</span> - native for android applications<br />
-                  SQL - for storing the data (list of drivers)<br />
-                  Firebase - Storing the data, so it can sync with the other drivers<br />
-                  Google auth - verify user with phone number, names, location of the taxi rank
-                </p>
-
-                <div className="challenge">
-                  <div className="techu">
-                    Challenges at the time.
-                  </div>
-                  <p>
-                    Sorting the list.<br/>
-                    Since the list had to be sorted more than once, keeping track of the old and new lists became challenging. First, you must identify the last driver; second, you must identify the absent or lazy driver(s). This meant I had to be smart about how the lists were rearranged.
-                    <br/><br/>
-                    -- full concept coming soon --
-                  </p>
-                  <a className="scouf" href="https://play.google.com/store/apps/details?id=com.taxi.scouf" target="_blank" rel="noopener noreferrer"> Link to app</a>
-                </div>
-              </div>
-            )}
           </div>
         </section>
 
@@ -173,6 +130,215 @@ function App() {
                 <li>Implemented Notion’s API technology to design a dynamic admin dashboard, allowing users to easily view and manage potential applications on a real-time basis.</li>
               </ul>
             </div>
+          </div>
+        </section>
+
+        <section id="projects" className="projects">
+          <div className="comment">
+            <h3>// my projects</h3>
+          </div>
+
+          <div className="project">
+            <h4>MyPapers</h4>
+            
+            <div className="project-carousel">
+              <div className="carousel-track">
+                <div className="screenshot-container">
+                  <img src={mp1} alt="Student Dashboard" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={mp4} alt="AI Solver" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={mp3} alt="Practice Quiz" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={mp2} alt="Learning Feed" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={mp5} alt="Study Streaks" />
+                </div>
+              </div>
+            </div>
+
+            <p>
+              MyPapers is an AI-powered educational platform designed to help high school students ace their mathematics tests. It focuses on personalized learning by identifying and targeting specific areas of misunderstanding, allowing students to save time and study more effectively. 
+            </p>
+            <p style={{ marginTop: '10px' }}>
+              The platform features an AI-driven problem solver, interactive practice quizzes, and a gamified experience with study streaks to keep students motivated and engaged.
+            </p>
+            
+            <div style={{ marginTop: '10px' }}>
+              <a href="https://proxstudios.co.za" target="_blank" rel="noopener noreferrer" className="read" style={{ 
+                display: 'inline-block',
+                background: '#2c2c2c', 
+                color: 'white', 
+                border: '1px solid #444', 
+                padding: '5px 15px', 
+                cursor: 'pointer',
+                borderRadius: '4px',
+                fontSize: '0.9rem',
+                textDecoration: 'none'
+              }}>
+                Visit MyPapers Website
+              </a>
+            </div>
+          </div>
+
+          <div className="project">
+            <h4>MyParade</h4>
+
+            <div className="project-carousel">
+              <div className="carousel-track">
+                <div className="screenshot-container">
+                  <img src={parade1} alt="MyParade Home" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={parade2} alt="Weather Forecast" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={parade3} alt="Activity Recommendations" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={parade4} alt="Location Details" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={parade5} alt="Vacation Planning" />
+                </div>
+              </div>
+            </div>
+
+            <p>
+              MyParade is a Flutter app built for the NASA Space Apps Challenge. It uses NASA's historical meteorological data to help users figure out whether it will rain on their parade — literally. Plan a vacation and the app tells you what to expect from the weather, based on real historical averages.
+            </p>
+            <p style={{ marginTop: '10px' }}>
+              Beyond weather, it uses AI to recommend activities tailored to the destination and conditions, and surfaces fun facts and do's for the location — so you can plan confidently before you even pack.
+            </p>
+
+            <div style={{ marginTop: '10px' }}>
+              <a
+                href="https://github.com/hackers-wrld/myparade"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="read"
+                style={{
+                  display: 'inline-block',
+                  background: '#2c2c2c',
+                  color: 'white',
+                  border: '1px solid #444',
+                  padding: '5px 15px',
+                  cursor: 'pointer',
+                  borderRadius: '4px',
+                  fontSize: '0.9rem',
+                  textDecoration: 'none'
+                }}
+              >
+                View on GitHub
+              </a>
+            </div>
+          </div>
+
+          <div className="project">
+            <h4>Skoff Application</h4>
+
+            <div className="project-carousel">
+              <div className="carousel-track">
+                <div className="screenshot-container">
+                  <img src={screen3} alt="Register Rank Screen" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={screen1} alt="Add Drivers Screen" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={screen2} alt="Skoff Home Page" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={screen4} alt="Select Driver to Lock" />
+                </div>
+                <div className="screenshot-container">
+                  <img src={screen5} alt="Select Last Driver" />
+                </div>
+              </div>
+            </div>
+
+            <p>
+              I built an app for taxi drivers, and they don't use it.
+              How did this idea come about? Living with taxi drivers made me curious about
+              how their system works, which brought this project to life. I programmed it over December
+              2020.
+              {!showMore && (
+                <span id="readmore" onClick={toggleReadMore} className="read" style={{ cursor: 'pointer', textDecoration: 'underline', marginLeft: '5px' }}>
+                  Read more
+                </span>
+              )}
+            </p>
+
+            <div style={{ marginTop: '10px', display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+              <button
+                onClick={toggleNotionModal}
+                className="read"
+                style={{
+                  background: '#2c2c2c',
+                  color: 'white',
+                  border: '1px solid #444',
+                  padding: '5px 15px',
+                  cursor: 'pointer',
+                  borderRadius: '4px',
+                  fontSize: '0.9rem'
+                }}
+              >
+                View Documentation (Notion)
+              </button>
+              <a
+                href="https://github.com/hackers-wrld"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="read"
+                style={{
+                  display: 'inline-block',
+                  background: '#2c2c2c',
+                  color: 'white',
+                  border: '1px solid #444',
+                  padding: '5px 15px',
+                  cursor: 'pointer',
+                  borderRadius: '4px',
+                  fontSize: '0.9rem',
+                  textDecoration: 'none'
+                }}
+              >
+                GitHub Profile
+              </a>
+            </div>
+
+            {showMore && (
+              <div id="hideout" className="hideout">
+                <p className="hide">
+                  If you know how their system works, you might be curious about how I managed to re-sort the list multiple times, as it was the hardest problem to solve at the time. Imagine a list of ten taxi drivers: every day, the driver who started first becomes the last the following day. The person who was second becomes first, the third becomes second, and so on. Another challenge is when a driver is absent on purpose or neglecting work; that driver has to be moved to the back of the line the following day. At least, that's how it was explained to me.
+                </p>
+                <div className="techu">
+                  Technologies used in this project:
+                </div>
+                <p>
+                  <span className="tech">Java</span> - native for android applications<br />
+                  SQL - for storing the data (list of drivers)<br />
+                  Firebase - Storing the data, so it can sync with the other drivers<br />
+                  Google auth - verify user with phone number, names, location of the taxi rank
+                </p>
+
+                <div className="challenge">
+                  <div className="techu">
+                    Challenges at the time.
+                  </div>
+                  <p>
+                    Sorting the list.<br/>
+                    Since the list had to be sorted more than once, keeping track of the old and new lists became challenging. First, you must identify the last driver; second, you must identify the absent or lazy driver(s). This meant I had to be smart about how the lists were rearranged.
+                    <br/><br/>
+                    -- full concept coming soon --
+                  </p>
+                  <a className="scouf" href="https://play.google.com/store/apps/details?id=com.taxi.scouf" target="_blank" rel="noopener noreferrer"> Link to app</a>
+                </div>
+              </div>
+            )}
           </div>
         </section>
       </main>
@@ -258,11 +424,16 @@ function App() {
         </div>
       )}
 
-      <footer className="page">
+      <nav className="floating-nav">
         <div className="home"> <a href="#head">//home</a></div>
         <div className="about"><a href='#about'>//about</a></div>
         <div className="swp"><a href="#projects">//projects</a></div>
         <div className="exp"><a href="#experience">//experience</a></div>
+      </nav>
+
+      <footer className="site-footer">
+        Built and designed by Kamogelo Ebuang <br />
+        All rights reserved. ©
       </footer>
     </div>
   );

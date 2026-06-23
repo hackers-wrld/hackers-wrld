@@ -27,5 +27,13 @@ body {
             font-weight: bold;
             display: inline;
         }
+        .mdihub-link {
+            color: #b8860b; // Golden Brown
+            text-decoration: none;
+            font-weight: bold;
+            &:hover {
+                color: #996515;
+            }
+        }
     }
 }

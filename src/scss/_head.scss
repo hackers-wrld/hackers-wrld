@@ -10,7 +10,7 @@
         text-align: left;
         margin-bottom: 6vh;
         
-        h2 {
+        h1 {
             font-size: inherit;
             margin: 0;
             text-align: left;
@@ -101,7 +101,7 @@
             .me_2 {
                 width: 150px;
                 height: 150px;
-                border-radius: 50%;
+                border-radius: 12px;
                 object-fit: cover;
                 border: 2px solid gold;
                 // Override any legacy absolute positioning
