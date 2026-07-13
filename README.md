@@ -3,49 +3,50 @@
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,30:00D9FF,70:00CED1,100:001f3f&height=250&section=header&text=👨🏽‍💻%20Tlhogi%20Matlhabe&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=35&desc=SYSTEM%20DESIGN%20|%20SOFTWARE%20ENGINEER%20|%20CLOUD%20ENGINEER%20|%20AI%20ENGINEER&descAlignY=55&descSize=16&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,30:00D9FF,70:00CED1,100:001f3f&height=250&section=header&text=👨🏽‍💻%20Kamogelo%20Ebuang&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=35&desc=SOFTWARE%20ENGINEER%20|%20FULL%20STACK%20DEVELOPER%20|%20MOBILE%20DEVELOPER&descAlignY=55&descSize=16&descAlign=50" width="100%" />
 </div>
 
 <p align="center">
-  <b>Full-Stack Developer · Building applications that solve real-world problems</b>
+  <b>Software Engineer · Building applications that solve real-world problems</b>
 </p>
 
 <p align="center">
-  <a href="https://user-badge.committers.top/south_africa/whoisimai">
-    <img src="https://user-badge.committers.top/south_africa/whoisimai.svg" alt="Top Committer - South Africa" />
+  <a href="https://user-badge.committers.top/south_africa/hackers-wrld">
+    <img src="https://user-badge.committers.top/south_africa/hackers-wrld.svg" alt="Top Committer - South Africa" />
   </a>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=whoisimai&color=34eb5c&style=for-the-badge&label=VISITORS" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=hackers-wrld&color=34eb5c&style=for-the-badge&label=VISITORS" alt="Profile Views" />
 </p>
 
 ---
 
 ## About Me
 
-Full-stack developer based in **South Africa**, focused on building scalable, production-ready applications from mobile to enterprise. I enjoy working across the entire stack from crafting smooth UIs to designing robust backend architectures.
+Software Engineer based in **Mafikeng, South Africa**. I build enterprise software and management systems at [MDIHUB](https://mafihub.co.za), and run my startup [MyPapers](https://proxstudios.co.za) — an AI-powered platform helping high school learners prepare for tests and exams. I enjoy working across the entire stack, from crafting smooth UIs to designing robust backend architectures.
 
-- &nbsp;Currently building full-stack web & mobile apps
-- &nbsp;Always exploring cloud infrastructure and system design
-- &nbsp;Fun fact: I automate everything I can, including keeping my servers awake
+- &nbsp;Currently building full-stack web & mobile apps at MDIHUB
+- &nbsp;Building [MyPapers](https://proxstudios.co.za) — AI-powered learning for high school students
+- &nbsp;Previously a SWE Intern at Afrosurance
+- &nbsp;In my free time, I study Mathematics, play arcade games, and watch anime
 
 ---
 
 ## What I Work With
 
 **Frontend**
-> React · React Native · Expo · Electron.js · TailwindCSS · React Router · HTML5 · CSS3
+> React · Next.js · React Native · Flutter · Expo · HTML5 · CSS3
 
 **Backend & APIs**
-> Node.js · TypeScript · JavaScript · Express.js · C# (ASP.NET) · Python
+> Node.js · Python · Django · Java · JavaScript · TypeScript · Express.js
 
-**Databases & Caching**
-> MongoDB · MySQL · Firebase · Redis  ·  Supabase  ·  Firebase (Firestore)
+**Mobile Development**
+> Flutter · React Native · Expo · Android (Java)
 
-**Auth & Security**
-> JWT · OAuth (Google Sign-In)
+**Databases & Cloud**
+> SQL · NoSQL · Firebase · Firestore · Google Authentication
 
-**Cloud & DevOps**
-> AWS · Google Cloud · Render · Vercel · Docker · GitHub Actions
+**Tools & DevOps**
+> Git · GitHub · Vercel · Render
 
 ---
 
@@ -53,7 +54,7 @@ Full-stack developer based in **South Africa**, focused on building scalable, pr
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,cs,python,html,css,react,electron,tailwind,nodejs,express,dotnet,mongodb,mysql,firebase,redis,aws,gcp,vercel,docker,githubactions,git,github,mysql)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,java,python,html,css,react,nextjs,flutter,dart,nodejs,express,django,firebase,mysql,mongodb,git,github,vercel,vite)](https://skillicons.dev)
 </div>
 
 ---
@@ -61,18 +62,16 @@ Full-stack developer based in **South Africa**, focused on building scalable, pr
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://readme-stats-fork-mauve.vercel.app/api/?username=whoisimai&theme=dark&show_icons=true&count_private=true&title_color=fff&icon_color=fff&text_color=fff&bg_color=0d1117" width="49%" />
+  <img src="https://readme-stats-fork-mauve.vercel.app/api/?username=hackers-wrld&theme=dark&show_icons=true&count_private=true&title_color=fff&icon_color=fff&text_color=fff&bg_color=0d1117" width="49%" />
   
-  <img src="https://github-readme-streak-stats-five-roan.vercel.app?user=whoisimai&theme=dark&ring=13e065&fire=34eb5c&currStreakLabel=fff&border=fff&background=0d1117" width="49%" />
+  <img src="https://github-readme-streak-stats-five-roan.vercel.app?user=hackers-wrld&theme=dark&ring=13e065&fire=34eb5c&currStreakLabel=fff&border=fff&background=0d1117" width="49%" />
 
-</div>
-  
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=whoisimai&bg_color=0d1117&color=f75c7e&line=79ff97&point=ffffff&area=true&area_color=f75c7e&hide_border=true&radius=10" alt="GitHub Activity Graph" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hackers-wrld&bg_color=0d1117&color=f75c7e&line=79ff97&point=ffffff&area=true&area_color=f75c7e&hide_border=true&radius=10" alt="GitHub Activity Graph" width="95%" />
 </div>
 
 ---
@@ -90,5 +89,5 @@ Full-stack developer based in **South Africa**, focused on building scalable, pr
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Footer Animation" />
   <br/>
-  <i>Let's build something great, feel free to explore my repos or reach out!</i>
+  <i>Let's build something great — feel free to explore my repos or reach out!</i>
 </div>
