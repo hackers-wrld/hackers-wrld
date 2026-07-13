@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.scss';
 import './scss/_hi.scss';
 import MailLogo from './img/mail.svg?react';
-import me from './img/me.png';
+import me from './img/me_2.jpg';
 
 // Skoff Project Screenshots
 import screen1 from './img/1_Screenshot_Add_Drivers.webp';
